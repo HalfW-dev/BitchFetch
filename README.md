@@ -2,7 +2,9 @@
 
 Link to app: https://touhoubitchfetch.netlify.app/
 
-## Technologies used:
+A simple MERN application that fetches data and displays it.
+
+## - Technologies used:
 
 ###### React
 A JavaScript front-end library/framework to help build the UI
@@ -22,7 +24,7 @@ A cloud platform that is used to host the API
 ###### Netlify
 Another hosting platform that hosts touhoubitchfetch.netlify.app
 
-### Behind the scenes
+### - Behind the scenes
 
 After accessing touhoubitchfetch.netlify.app, the React app will be rendered and displayed, with a button saying "Fetch Bitches". Clicking the button will start a synchronous process of:
  - React sends a GET request to the NodeJS/Express API
