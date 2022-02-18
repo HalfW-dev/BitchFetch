@@ -42,4 +42,4 @@ When an API or a back-end app is introduced between React and MongoDB, the app w
 The code in the GitHub repo is without the credentials.
 
 ### But then how to do you make the app work without the credentials?
-This GitHub repo is not for hosting an application, it's simply just a place to post my code for maintainance and review. The hosting is done by Heroku and Netlify, and credentials are provided to Heroku and Netlify (and of course Heroku and Netlify do not show the credentials to anyone but the owner, which is me).
+This GitHub repo is not for hosting the application, it's simply just a place to post my code for maintainance and review. The hosting is done by Heroku and Netlify, and credentials are provided to Heroku and Netlify (and of course Heroku and Netlify do not show the credentials to anyone but the owner, which is me).
