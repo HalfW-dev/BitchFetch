@@ -37,7 +37,7 @@ After accessing touhoubitchfetch.netlify.app, the React app will be rendered and
 
 Short answer: security and performance reasons
 
-Long answer: Connecting to any database requires putting credentials in your code. Since browser-side/client-side code can be read by any user by simply opening the DevTool, directly connecting to the database from React means exposing your database credentials to the public. With your database credentials, anyone can read, write, delete data in your database.
+Long answer: Connecting to any database requires putting credentials in your code. Since browser-side/client-side code can be read by any user by simply opening the DevTool, directly connecting to the database from React means exposing your database credentials to the public. With your database credentials, anyone can tamper with data in your database.
 When an API or a back-end app is introduced between React and MongoDB, the app will do the talking for you. It would ask the data from the database and then fetch it to React. Since back-end app stays in the server side (as the name suggests), the database credentials are safely stored in the server, away from the curious eyes in the client side.
 
 ### But I see your NodeJS/Express code in the repo. Doesn't that just defeat the purpose of having an API?
